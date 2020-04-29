@@ -9,6 +9,8 @@
     "test": "CI=true yarn workspaces run test"
   },
   "dependencies": {
+    "next": "^9.3.5",
+    "swr": "^0.2.0",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
@@ -32,16 +34,5 @@
   "engines": {
     "node": ">=10.0.0"
   },
-  "private": true,
-  "workspaces": {
-    "packages": [
-      "web",
-      "api"
-    ],
-    "nohoist": [
-      "**/babel**",
-      "**/eslint**",
-      "**/jest"
-    ]
-  }
+  "private": true
 }
