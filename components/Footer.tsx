@@ -33,7 +33,8 @@ const Footer: React.FC = () => {
             to="https://twitter.com/uetschy"
             eventLabel="Author Page"
             aria-label="Author page"
-            target="_blank">
+            target="_blank"
+          >
             <Bold>Yasuaki Uechi</Bold>
           </OutboundLink>
         </p>
@@ -47,21 +48,24 @@ const Footer: React.FC = () => {
             )}&url=${encodeURIComponent('https://namae.dev')}`}
             eventLabel="Tweet"
             aria-label="Tweet this page"
-            target="_blank">
+            target="_blank"
+          >
             <FaTwitter />
           </OutboundLink>
           <OutboundLink
             to="https://www.producthunt.com/posts/namae"
             eventLabel="ProductHunt"
             aria-label="Go to ProductHunt page"
-            target="_blank">
+            target="_blank"
+          >
             <FaProductHunt />
           </OutboundLink>
           <OutboundLink
             to="https://github.com/uetchy/namae"
             eventLabel="GitHub Repo"
             aria-label="Go to GitHub repository"
-            target="_blank">
+            target="_blank"
+          >
             <FaGithub />
           </OutboundLink>
         </Links>

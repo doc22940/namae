@@ -12,7 +12,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-    "types": ["react", "jest"]
+    "types": ["react", "jest"],
+    "allowJs": true,
+    "esModuleInterop": true
   },
   "include": ["pages", "server.ts", "i18n.ts"],
   "exclude": ["node_modules"]

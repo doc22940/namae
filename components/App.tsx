@@ -4,11 +4,11 @@ import {Helmet} from 'react-helmet';
 import {useTranslation} from 'react-i18next';
 import {Switch, Route, Redirect} from 'react-router-dom';
 
-import Welcome from './components/Welcome';
-import Form from './components/Form';
-import Footer from './components/Footer';
-import {mobile} from './util/css';
-import {isStandalone} from './util/pwa';
+import Welcome from './Welcome';
+import Form from './Form';
+import Footer from './Footer';
+import {mobile} from '../util/css';
+import {isStandalone} from '../util/pwa';
 
 export default function App() {
   return <Home />;

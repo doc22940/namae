@@ -3,8 +3,8 @@ import {Helmet} from 'react-helmet';
 import {useTranslation} from 'react-i18next';
 import {useParams} from 'react-router-dom';
 import {IoIosRocket, IoIosFlash} from 'react-icons/io';
-import Form from '../components/Form';
-import Cards from '../components/cards';
+import Form from '../../components/Form';
+import Cards from '../../components/cards';
 import {
   ResultItem,
   ResultIcon,

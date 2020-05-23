@@ -3,7 +3,7 @@ import {send, sendError, NowRequest, NowResponse} from '../util/http';
 
 function resolvePromise(hostname: string): Promise<string[]> {
   return new Promise((resolve, reject) => {
-    dns.resolve4(hostname, function(err, addresses) {
+    dns.resolve4(hostname, function (err, addresses) {
       if (err) return reject(err);
       resolve(addresses);
     });
